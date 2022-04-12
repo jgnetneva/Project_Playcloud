@@ -1,0 +1,20 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap";
+@font-face {
+  font-family: Aire Exterior;
+  src: url("aire_exterior.8433edaf.ttf");
+  src: url("aireexterior.98978ba5.woff") format("woff");
+  src: url("aireexterior.4e62c608.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Pulsar;
+  src: url("pulsar.a1cc02c9.otf");
+  src: url("pulsar.7c85a53d.woff") format("woff");
+  src: url("pulsar.b263c498.woff2") format("woff2");
+}
+
+.logotype {
+  font-family: Pulsar, sans-serif;
+}
+
+/*# sourceMappingURL=style.75f14d4e.css.map */

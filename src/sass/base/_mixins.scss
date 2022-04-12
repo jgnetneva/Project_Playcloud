@@ -1,0 +1,46 @@
+@mixin line {
+  width: 50px;
+  margin-right: 30px;
+  border-bottom: 1px solid #57D6FF;
+}
+
+@mixin subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 180%;
+  color: #57D6FF;
+}
+
+@mixin title {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 1;
+  color: #FFFFFF;
+}
+
+@mixin text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 21.33px;
+  line-height: 150%;
+  color: #ABABAB;
+}
+
+@mixin button-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 119%;
+  color: #00C5FF;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: #FFFFFF;
+    font-size: 17px;
+  }
+}
+

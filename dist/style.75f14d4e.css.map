@@ -1,0 +1,1 @@
+{"mappings":";ACAA;;;;;;;AAOA;;;;;;;ADJA","sources":["src/sass/style.scss","src/sass/fonts.scss"],"sourcesContent":["@import \"fonts.scss\";\r\n\r\n\r\n.logotype {\r\n  font-family: 'Pulsar', sans-serif;\r\n}",null],"names":[],"version":3,"file":"style.75f14d4e.css.map","sourceRoot":"/__parcel_source_root/"}

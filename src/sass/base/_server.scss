@@ -1,0 +1,55 @@
+.server {
+  margin: 0 auto;
+}
+
+.server-block {
+  box-sizing: content-box;
+  padding: 42px 75px 0 30px;
+  width: 100%;
+  min-height: 517px;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__image {
+  max-width: 665px;
+  }
+  &__content {
+    max-width: 540px;
+    padding-left: 60px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__subtitle-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: 17px;
+      div {
+        @include line;
+        margin-top: 29px;
+        margin-bottom: 22px;
+      }
+      p {
+        @include subtitle;
+      }
+    }
+    &__title {
+      @include title;
+      margin-bottom: 60px;
+    }
+    &__text {
+      @include text;
+    }
+    &__separator {
+      margin-top: 27px;
+      margin-bottom: 22px;
+      width: 271px;
+      border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+    }
+    &__btn {
+      margin-top: 74px;
+      @include button-link;
+    }
+  }
+}
