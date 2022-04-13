@@ -1,8 +1,6 @@
 .device {
-  margin: 0 auto;
-  height: 820px;
+  width: 100%;
 }
-
 .device-block {
   box-sizing: content-box;
   padding-top: 51px;
@@ -35,7 +33,6 @@
     &__text {
       @include text;
     }
-
     &__btn {
       margin-top: 60px;
       @include button-link;
@@ -72,27 +69,29 @@
   filter: drop-shadow(-5px 14px 4px rgba(0, 0, 0, 0.71));
 }
 
-@media (max-width: 1200px) {
+@media (max-width: $desktop-large) {
   .device-block {
     padding: 0 15px;
     margin: 0 auto;
-  }
-
-  .device-block__image1 {
-    top: 0;
-    left: 0;
-     }
-  .device-block__image2 {
-    top: -50px;
-    left: 240px;
+    &__images {
+      height: auto;
     }
-  .device-block__image3 {
-    bottom: 450px;
-    left: 250px;
-     }
+    &__image1 {
+      top: 0;
+      left: 0;
+    }
+    &__image2 {
+      top: -50px;
+      left: 240px;
+    }
+    &__image3 {
+      bottom: 450px;
+      left: 250px;
+    }
+  }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: $desktop) {
   .device-block__image1 {
     top: 0;
     left: -100px;
@@ -107,32 +106,31 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: $tablet) {
   .device-block {
     width: auto;
-      padding: 0 39px;
-      flex-direction: column;
-
-      &__images {
-        position: static;
-        height: 0;
-
-        & img {
-          width: 300px;
-        }
+    padding: 0 39px;
+    margin-bottom: 70px;
+    flex-direction: column;
+    &__images {
+      position: static;
+      height: 0;
+      & img {
+        width: 300px;
       }
-      &__content {
-        &__subtitle-group {
-          align-self: center;
-        }
-
-        &__title {
-          margin-bottom: 370px;
-        }
-        &__btn {
-          align-self: center;
-        }
+    }
+    &__content {
+      align-self: center;
+      &__subtitle-group {
+        align-self: center;
       }
+      &__title {
+        margin-bottom: 370px;
+      }
+      &__btn {
+        align-self: center;
+      }
+    }
   }
   .device-block__image1 {
     top: -450px;
@@ -146,5 +144,4 @@
     top: -670px;
     left: 120px;
   }
-
 }

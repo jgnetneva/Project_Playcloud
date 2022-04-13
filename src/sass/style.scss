@@ -1,9 +1,10 @@
 @import "fonts";
 
-@import "sections/mixins";
+@import "base/veriables";
+@import "base/mixins";
 
-@import "sections/base.scss";
-@import "sections/reset.scss";
+@import "base/base";
+@import "base/reset";
 @import "sections/header.scss";
 @import "sections/main";
 @import "sections/server";

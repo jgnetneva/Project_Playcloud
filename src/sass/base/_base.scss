@@ -7,14 +7,12 @@ html, body {
   color: #ABABAB;
   background-color: #141C24;
 }
-
 .wrapper {
   min-height: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
 }
-
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -26,9 +24,3 @@ html, body {
   margin: 0 auto;
   padding: 0 15px;
 }
-/*
-320px — 480px: Mobile devices.
-481px — 768px: iPads, Tablets.
-769px — 1024px: Small screens, laptops.
-1025px — 1200px:
- */

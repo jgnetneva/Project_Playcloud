@@ -1,7 +1,6 @@
 .server {
   width: 100%;
 }
-
 .server-block {
   box-sizing: content-box;
   padding: 42px 60px 0 30px;
@@ -53,7 +52,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: $desktop-large) {
   .server-block {
     padding: 0 30px;
     &__image {
@@ -66,7 +65,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: $tablet) {
   .server-block {
     padding: 0 15px;
     width: auto;

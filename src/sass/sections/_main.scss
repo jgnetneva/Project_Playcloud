@@ -3,7 +3,7 @@
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
   }
   80% {
     transform: translateY(-5px);
@@ -21,7 +21,6 @@
   justify-content: center;
   position: relative;
 }
-
 .main {
   width: 100%;
   margin-bottom: 98px;
@@ -100,7 +99,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: $mobile) {
   .main {
     margin-bottom: 80px;
   }
