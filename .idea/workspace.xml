@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8013349a-8120-46ed-a770-39373e886741" name="Changes" comment="for git-pages" />
+    <list default="true" id="8013349a-8120-46ed-a770-39373e886741" name="Changes" comment="changes in html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +76,7 @@
       <workItem from="1649592914178" duration="40264000" />
       <workItem from="1649680651161" duration="1425000" />
       <workItem from="1649693607866" duration="1198000" />
-      <workItem from="1649698469511" duration="62582000" />
+      <workItem from="1649698469511" duration="63668000" />
     </task>
     <task id="LOCAL-00001" summary="without adaptive">
       <created>1649782241304</created>
@@ -111,7 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649845611963</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changes in html">
+      <created>1649845883166</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649845883166</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changes in html">
+      <created>1649846592999</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649846592999</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +150,7 @@
     <MESSAGE value="some changes (blank lines, structure and ect.)" />
     <MESSAGE value="build project into 'dist'" />
     <MESSAGE value="for git-pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="for git-pages" />
+    <MESSAGE value="changes in html" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes in html" />
   </component>
 </project>
