@@ -71,7 +71,9 @@
         text-decoration: underline;
       }
     }
-
+    &__contacts-hidden {
+      display: none;
+    }
     &__icons {
       display: flex;
       align-items: center;
@@ -82,6 +84,40 @@
         &:hover {
         transform: scale(1.15);
       }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer-container {
+    min-height: 280px;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding: 85px 15px;
+    &__left {
+      flex-direction: column;
+      &__logo {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+      &__allright {
+        margin-right: 0;
+        margin-bottom: 21px;
+      }
+    }
+    &__right {
+      flex-direction: column-reverse;
+      margin-bottom: 34px;
+      & > p {
+        margin-right: 0;
+        margin-bottom: 22px;
+      }
+      &__contacts-hidden {
+        display: block;
+      }
+      &__icons {
+        margin-bottom: 30px;
       }
     }
   }
